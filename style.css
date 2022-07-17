@@ -1,0 +1,18 @@
+
+
+ul{
+    text-align: start; 
+    list-style: none; 
+    font-size: 20px;
+}
+
+ul li{
+    display: block;
+    justify-content: flex-start;
+    background-color: rgb(200, 224, 224);
+    border: 0.8px solid rgb(238, 233, 233);
+    height: 30px;
+}
+button{
+    margin: 10px 0px;
+}
