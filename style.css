@@ -1,17 +1,32 @@
-
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center; 
+    padding: 20px; 
+    font-size: 30px;
+}
 
 ul{
     text-align: start; 
     list-style: none; 
     font-size: 20px;
+    padding: 20px;
+}
+
+form{
+    text-align: center;
 }
 
 ul li{
-    display: block;
-    justify-content: flex-start;
+    padding: 0.4rem;
     background-color: rgb(200, 224, 224);
     border: 0.8px solid rgb(238, 233, 233);
     height: 30px;
+}
+ul div button{
+    height: 30px;
+    width: 60px;
 }
 button{
     margin: 10px 0px;
